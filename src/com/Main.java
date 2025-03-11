@@ -12,6 +12,13 @@ public class Main {
 		book.setAuthor(author);
 		System.out.println(book);
 		
+		Book book1=new Book();
+		book1.setTitle("Complete Java");
+		Author author1=new Author();
+		author.setName("Reff");
+		book1.setAuthor(author);
+		System.out.println(book1);
+		
 	}
 
 }
